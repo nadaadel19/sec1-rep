@@ -15,8 +15,7 @@ jobs:
     runs-on: ubuntu-latest
   
     steps:
-      - name: "PRINT FILES befor"
-        run: ls
       - uses: actions/checkout@v3
-      - name: "PRINT FILES after"
-        run: ls
+      - name: "docker login"
+        run: docker login --username ${{ DOCKER-USERNAME }} --password ${{ DOCKER-TOKEN }}
+      
