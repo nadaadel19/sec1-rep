@@ -16,6 +16,6 @@ jobs:
   
     steps:
       - uses: actions/checkout@v3
-      - name: " docker login"
+      - name: " docker login "
         run: docker login --username ${{ DOCKER_USERNAME }} --password ${{ DOCKER_TOKEN }}
        
