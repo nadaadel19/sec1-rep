@@ -14,8 +14,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
   
-  steps:
-    - name: "test github"
-      run: pwd
-    - name: "printing name"
-      run: echo ali
+    steps:
+      - name: "test github"
+        run: pwd
+      - name: "printing name"
+        run: echo ali
